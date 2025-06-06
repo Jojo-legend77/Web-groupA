@@ -1,0 +1,209 @@
+/* Reset and base styles */
+* body.dark-mode {
+  background: #1c1c1c;
+  color: #0e0c6b;
+}
+
+body.dark-mode header,
+body.dark-mode nav,
+body.dark-mode footer {
+  background: #121212;
+}
+
+body.dark-mode .place-card {
+  background: #2c2c2c;
+}
+
+body.dark-mode .place-card h3 {
+  color: #40ddaa;
+}
+
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+  background: #333;
+  color: rgb(9, 75, 142);
+  border: 1px solid #666;
+}
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background:white;
+  color: #333;
+}
+
+/* Navigation Bar */
+nav {
+  background-color:white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border: solid;
+  border-radius: 15px;
+  border-color: #666;
+  background-color: bisque;
+}
+
+.logo {
+  color:blue;
+  font-size: 2em;
+  font-weight: bold;
+}
+.lalibe{
+color: black;
+text-align: center;
+border: solid;
+border-radius: 20px;
+background-color: #1bd437;
+width: 5%;
+font-size: 20px;
+height: 4px;
+}
+.lalibe:a{
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: rgb(230, 14, 14);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/a/a7/Ethiopian_Landscape.jpg') no-repeat center center/cover;
+  color:black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Sections */
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  margin: 40px 0 20px;
+  color: #007049;
+}
+
+.places-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.place-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.place-card:hover {
+  transform: scale(1.02);
+}
+
+.place-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.place-card h3 {
+  margin: 10px;
+  color: #007049;
+}
+
+.place-card p {
+  padding: 0 10px 15px;
+}
+
+/* Search Bar */
+#searchInput {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto 20px;
+  display: block;
+  padding: 10px;
+  border: 2px solid #007049;
+  border-radius: 5px;
+}
+
+/* About */
+.about-text {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 15px;
+  padding: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #007049;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: #005b34;
+}
+
+/* Footer */
+footer {
+  background: #003d26;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}

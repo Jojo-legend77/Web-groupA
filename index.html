@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ethiopian Tourism</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Ethiopia Tours</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="darkToggle">🌙</button>
+  </nav>
+
+  <header id="home">
+    <h1>Explore the Beauty of Ethiopia</h1>
+    <p>Discover ancient wonders, natural beauty, and rich culture</p>
+  </header>
+
+  <section id="destinations">
+    <h2 class="section-title">Top Tourist Attractions</h2>
+    
+    <input type="text" id="searchInput" placeholder="Search destinations...">
+
+    <div class="places-container" id="placesContainer">
+     
+
+
+      <div class="place-card" data-name="Lalibela">
+       
+        <img src="lalibela.jpg" alt="Lalibela">
+           <a style="text-align: center;" href="https://en.wikipedia.org/wiki/Lalibela">more view</a>
+        <h3>Lalibela Rock-Hewn Churches</h3>
+        <p>12th-century churches carved from rock. UNESCO World Heritage Site...</p>
+        </a>
+      </div>
+        <div class="place-card" data-name="Axum">
+        <a href="https://en.wikipedia.org/wiki/Axum">
+        <img src="Axum.jpg" alt="Axum">
+        <h3>Axum</h3>
+        <p>Once the center of a great empire, now known for obelisks and legends...</p>
+      </a>
+      </div>
+       <div class="place-card" data-name="Gondar">
+        <a href="https://en.wikipedia.org/wiki/Fasil_Ghebbi">
+        <img src="Gonder.jpg" alt="Gondar">
+        <h3>Gondar Castles</h3>
+        <p>Fasil Ghebbi complex features castles from the 17th century imperial era...</p>
+        </a>
+      </div>
+   
+   
+<div class="place-card" data-name="Harar Jegol">
+        <a href="https://en.wikipedia.org/wiki/Harar_Jegol">
+        <img src="Harar,_porta_assumiy_01.jpg" alt="Harar Jegol">
+        <h3>Harar Jegol</h3>
+        <p>Harar is the capital city of the Harari Region. 
+          The ancient city is located on a hilltop in the eastern part of the country and is about 500 kilometres (310 mi) from the Ethiopian capital Addis Ababa at an elevation of 1,885 metres (6,184 ft)...</p>
+      </a>
+      </div>
+           <div class="place-card" data-name="Simien Mountains">
+       <a href="https://en.wikipedia.org/wiki/Simien_Mountains">
+       <img src="Simien-Gebirge.JPG" alt="Simien Mountains">
+        <h3>Simien Mountains National Park</h3>
+        <p>Home to Ethiopia's highest peaks and rare wildlife like the Gelada baboon...</p>  
+       </a>
+      </div>
+      <div class="place-card" data-name="Tiya(archaeological site)">
+        <a href="https://en.wikipedia.org/wiki/Tiya_(archaeological_site)">
+        <img src="tiyatkil.jpg" alt="Tiya">
+        <h3>Tiya Megalithic Stones</h3>
+        <p>Tiya is an archaeological site in central Ethiopia. It is located in the Soddo woreda, in the Gurage Zone of the Southern Nations, Nationalities, and Peoples Region south of Addis Ababa...</p>
+        </a>
+      </div> 
+      <div class="place-card" data-name="Blue Nile Gorge ">
+        <a href="https://en.wikipedia.org/wiki/Blue_Nile_Falls">
+        <img src="Blue_Nile_Falls-03,_by_CT_Snow.jpg" alt="Blue Nile Gorge">
+        <h3>Blue Nile Gorge</h3>
+        <p>A massive canyon with breathtaking views, often compared to the Grand Canyon...</p>
+        </a>
+        </div>
+      <div class="place-card" data-name="Debre Damo Monastery">
+        <a href="https://en.wikipedia.org/wiki/Debre_Dammo">
+        <img src="Debre_Damo_Monastery.jpg" alt="Debre Damo Monastery">
+        <h3>Debre Damo Monastery</h3>
+        <p>An ancient monastery perched on a cliff; only men may enter by climbing a rope up the rock face...</p>
+        </a>
+      </div>
+     <div class="place-card" data-name="Bale Mountains National Park">
+        <a href="https://en.wikipedia.org/wiki/Bale_Mountains_National_Park#:~:text=Bale%20Mountains%20National%20Park%20is,Plateau%20of%20the%20Ethiopian%20Highlands.&text=Bale%20Mountains%20and%20trail%20in%20the%20park.">
+        <img src="Bale_Mountns.jpg" alt="Bale Mountains National Park">
+        <h3>Bale Mountains National Park</h3>
+        <p>A haven for hikers and nature lovers, home to the Ethiopian wolf and beautiful alpine scenery...</p>
+        </a>
+      </div>
+      <div class="place-card" data-name="Omo National Park">
+        <a href="https://en.wikipedia.org/wiki/Omo_National_Park">
+        <img src="omo vally.jpg" alt="Omo Valley">
+        <h3>Omo Valley</h3>
+        <p> Culturally rich region where many indigenous tribes like the Hamar and Mursi live, offering unique cultural experiences..</p>
+        </a>
+      </div>
+      <div class="place-card" data-name="Bahir Dar & Lake Tana">
+        <a href="https://en.wikipedia.org/wiki/Lake_Tana">
+        <img src="Tana.jpg" alt="Bahir Dar & Lake Tana">
+        <h3>Bahir Dar & Lake Tana</h3>
+        <p>Peaceful lakeside city with access to island monasteries and the powerful Blue Nile Falls (Tis Issat)...</p>
+        </a>
+      </div>
+      <div class="place-card" data-name="Nechisar National Park">
+        <a href="https://en.wikipedia.org/wiki/Nechisar_National_Park">
+        <img src="nechisar.jpg" alt="Nechisar National Park">
+        <h3>Nechisar National Park</h3>
+        <p> Located between Lakes Abaya and Chamo; known for zebras, crocodile market, and boat rides...</p>
+        </a>
+      </div>
+     <div class="place-card" data-name="Sof_Omar_Caves">
+        
+        <img src="sofumer.jpg"alt="Sof_Omar_Caves">
+        <h3>Sof_Omar_Cave</h3>
+        <a href="https://en.wikipedia.org/wiki/Sof_Omar_Caves">more view</a>
+        <p> The longest cave in Ethiopia at 15.1 kilometres (9.4 mi) long. 
+          The caves are known for their many pillars, particularly in the "Chamber of Columns...</p>
+      </a>
+      </div>
+            <div class="place-card" data-name="Danakil Depression">
+        <a href="https://en.wikipedia.org/wiki/Danakil_Depression">
+        <img src="dankild.jfif" alt="Danakil Depression">
+        <h3>Danakil Depression</h3>
+        <p>Colorful sulfur springs, lava lakes, and one of the lowest points on Earth.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+<section id="about">
+    <h2 class="section-title">About Ethiopian Tourism</h2>
+    <p class="about-text">
+      Ethiopia is a land of ancient history, dramatic landscapes, and vibrant cultures. Whether you're exploring the rock churches of Lalibela, hiking the Simien Mountains, or visiting the ruins of Axum, you'll discover a country with unmatched beauty and heritage.
+    <div id="weather" style="text-align:center; margin: 20px;"></div>
+</p>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+      <h3 style="text-align:center; margin:30px 0;">Our Location</h3>
+<div style="width:100%; height:300px;">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.068944146515!2d38.7578!3d8.9806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85a78db02b27%3A0x64303a65ad92d748!2sAddis%20Ababa%2C%20Ethiopia!5e0!3m2!1sen!2set!4v1616411525786!5m2!1sen!2set" 
+    width="150%" 
+    height="105%" 
+    style="border: 1px;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+</div>
+
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ethiopian Tourism. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
